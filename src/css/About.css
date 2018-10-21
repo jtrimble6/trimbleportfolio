@@ -1,0 +1,155 @@
+/* WIDE SCREENS */
+@media only screen and (min-width: 1025px) {
+    .aboutContainer {
+        min-width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .aboutField {
+        margin-top: 20%;
+        opacity: 1;
+        margin: 30px;
+        background-color:black;
+        overflow: scroll;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    .img {
+        float: left;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 40%;
+        width: 25%;
+    }
+
+    h2 {
+        font-size: 65px;
+    }
+    .aboutField p {
+        font-size: 40px;
+        background-color:black;
+        color: #008eff;
+        font-weight: 600;
+        padding: 10px;
+        text-indent: 3%;
+        
+    }
+}
+
+/* MEDIUM SCREENS */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .aboutContainer {
+        min-width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .aboutField {
+        margin-top: 10%;
+        opacity: 1;
+        background-color:black;
+        overflow: scroll;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    .img {
+        float: left;
+        margin-top: 10px;
+        margin-left: 30%;
+        margin-right: 20px;
+        height: 40%;
+        width: 40%;
+
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+    .aboutField p {
+        font-size: 20px;
+        background-color:black;
+        color: #008eff;
+        font-weight: 600;
+        padding: 10px;
+        text-indent: 3%;
+        width: 100%;
+        overflow: scroll;
+    }
+}
+
+/* SMALL SCREENS */
+@media only screen and (min-width: 481px) and (max-width: 765px) {
+    .aboutContainer {
+        min-width: 100%;
+        overflow: scroll;
+        margin: 0;
+    }
+
+    .aboutField {
+        margin-top: 10%;
+        opacity: 1;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    .img {
+        float: left;
+        margin-top: 25px;
+        margin-left: 11%;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        height: 40%;
+        width: 40%;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+    .aboutField p {
+        font-size: 22px;
+        background-color:black;
+        color: #008eff;
+        font-weight: 600;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+/* SMALLER SCREENS */
+@media only screen and (max-width: 480px) {
+    .aboutContainer {
+        min-width: 100%;
+        margin: 0;
+        overflow: scroll;
+    }
+
+    .aboutField {
+        margin-top: 10%;
+        opacity: 1;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    .img {
+        float: left;
+        margin-top: 25px;
+        margin-left: 20%;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        height: 35%;
+        width: 60%;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .aboutField p {
+        font-size: 20px;
+        background-color:black;
+        color: #008eff;
+        font-weight: 600;
+        padding: 20px;
+        text-align: center;
+    }
+}

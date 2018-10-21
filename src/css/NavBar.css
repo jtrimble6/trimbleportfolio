@@ -1,0 +1,353 @@
+/* WIDE SCREENS */
+@media only screen and (min-width: 1025px) {
+    .tabs-container {
+        background-color: black;
+        width: 100%;
+        height: 120px;
+    }
+
+    .Navbar_Link-brand {
+        font-family: 'Biryani', sans-serif;
+        font-size: 40px;
+        color: #008eff;
+        white-space: nowrap;
+    }
+
+    .Navbar_Name {
+        font-size: 75%;
+        position: fixed;
+        left: 0;
+        margin-left: 5px;
+        top: 15px;
+        left: 5px;
+    }
+
+    .fa-dice-d20 {
+        margin-left: 50%;
+        font-size: 100%;
+        position: fixed;
+        top: 50px;
+    }
+
+    .Navbar_Title {
+        font-size: 75%;
+        position: fixed;
+        right: 5px;
+        top: 15px;
+    }
+
+    .Navbar__Link-toggle {
+        display: none;
+      }
+
+      .flex-container {
+        position: relative;
+        color: #008eff;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-column-gap: 5px;
+        align-items: center;
+        border: none;
+        max-width: 50%;
+        margin-left: 29%;
+        font-size: 20px;
+    }
+
+
+    .Navbar_Link {
+        flex: 1;
+    }
+
+    .nav-item {
+        line-height: 1;
+    }
+
+    .nav .nav-link {
+        border: none;
+    }
+
+    .nav-link.active {
+        border-top: 4px solid white;
+        min-width: 100%;
+    }
+
+}
+
+
+/* MEDIUM SCREENS */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .tabs-container {
+        background-color: black;
+        width: 100%; 
+        height: 90px;
+    }
+
+    .Navbar_Link-brand {
+        font-family: 'Biryani', sans-serif;
+        font-size: 40px;
+        color: #008eff;
+        white-space: nowrap;
+    }
+
+    .Navbar_Name {
+        font-size: 50%;
+        position: fixed;
+        left: 0;
+        margin-left: 5px;
+        top: 15px;
+        left: 5px;
+    }
+
+    .fa-dice-d20 {
+        margin-left: 50%;
+        font-size: 70%;
+        position: fixed;
+        top: 35px;
+    }
+
+    .Navbar_Title {
+        font-size: 50%;
+        position: fixed;
+        right: 5px;
+        top: 15px;
+    }
+
+    .Navbar__Link-toggle {
+        display: none;
+      }
+
+    .flex-container {
+        position: relative;
+        color: #008eff;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-column-gap: 5px;
+        align-items: center;
+        border: none;
+        max-width: 40%;
+        margin-left: 31.5%;
+    }
+
+    .Navbar_Link {
+        flex: 1;
+    }
+
+    .nav-item {
+        line-height: 0.5;
+    }
+
+    .nav .nav-link {
+        border: none;
+    }
+
+    .nav-link.active {
+        border-top: 4px solid white;
+        min-width: 100%;
+    }
+}
+
+
+/* SMALL SCREENS */
+@media only screen and (min-width: 481px) and (max-width: 765px) {
+    .tabs-container {
+        background-color: black;
+        width: 100%;
+        height: 80px;
+    }
+
+    .Navbar_Link-brand {
+        font-family: 'Biryani', sans-serif;
+        font-size: 25px;
+        color: #008eff;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-column-gap: 5px;
+        align-items: center;
+    }
+
+    .Navbar_Name {
+        font-size: 65%;
+        position: fixed;
+        left: 0;
+        margin-left: 5px;
+        top: 10px;
+        left: 5px;
+    }
+
+    .fa-dice-d20 {
+        margin-left: 50%;
+        font-size: 100%;
+        position: fixed;
+        top: 10px;
+    }
+
+    .Navbar_Title {
+        font-size: 65%;
+        position: fixed;
+        right: 5px;
+        top: 10px;
+    }
+
+    .fa-bars {
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .flex-container {
+        position: fixed;
+        z-index: 1;
+        top: 50px;
+        left: 25px;
+        background-color: #008eff;
+        color: white;
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(4, auto);
+        grid-column-gap: 5px;
+        align-items: center;
+        border: none;
+        padding: 0;
+        max-width: 20%;
+         
+    }
+
+    .nav-item {
+        flex: 2;
+        min-width: 100%;
+    }
+
+    .nav .nav-link {
+        line-height: 0.5;
+        font-size: 25%;
+    }
+
+    .nav-link.active {
+        border-left: 4px solid white;
+        width: 100%;
+    }
+
+    .Navbar_Items,
+        /* .Navbar {
+            flex-direction: column;
+        } */
+        .Navbar_Items {
+            display:none;
+        }
+
+        .Navbar__ToggleShow {
+            display: flex;
+          }
+        .Navbar_Link-toggle {
+            align-self: flex-end;
+            display: initial;
+            position: absolute;
+            cursor: pointer;
+            background-color: white;
+           } 
+        .fa-bars {
+            color: #008eff
+        }
+}
+
+
+/* SMALLER SCREENS */
+@media only screen and (max-width: 480px) {
+    .tabs-container {
+        background-color: black;
+        width: 100%;   
+        height: 70px;
+    }
+
+    .Navbar_Link-brand {
+        font-family: 'Biryani', sans-serif;
+        font-size: 40px;
+        color: #008eff;
+        white-space: nowrap;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-column-gap: 5px;
+        align-items: center;
+    }
+
+    .Navbar_Name {
+        font-size: 35%;
+        position: fixed;
+        left: 0;
+        margin-left: 5px;
+        top: 10px;
+    }
+
+    .fa-dice-d20 {
+        margin-left: 48%;
+        font-size: 50%;
+        position: fixed;
+        top: 10px;
+    }
+
+    .Navbar_Title {
+        font-size: 35%;
+        position: fixed;
+        right: 5px;
+        top: 10px;
+    }
+
+    .fa-bars {
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+
+    .flex-container {
+        position: fixed;
+        z-index: 1;
+        top: 50px;
+        left: 25px;
+        background-color: #008eff;
+        color: white;
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(4, auto);
+        grid-column-gap: 5px;
+        align-items: center;
+        border: none;
+        padding: 0;
+         
+    }
+
+    .nav-item {
+        flex: 2;
+        min-width: 100%;
+    }
+
+    .nav .nav-link {
+        border: none;
+        line-height: 25%;
+        font-size: 25%;
+        
+    }
+
+    .nav-link.active {
+        border-left: 3px solid white;
+        width: 50%;
+    }
+
+    .Navbar_Items,
+        /* .Navbar {
+            flex-direction: column;
+        } */
+        .Navbar_Items {
+            display:none;
+        }
+        .Navbar__ToggleShow {
+            display: flex;
+          }
+        .Navbar_Link-toggle {
+            align-self: flex-end;
+            display: initial;
+            position: absolute;
+            cursor: pointer;
+            background-color: white;
+           } 
+        .fa-bars {
+            color: #008eff
+        }
+}
