@@ -25,12 +25,12 @@ const Projects = () => (
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="icon3">
-                                        <a className="caption" href="https://jtrimble6.github.io/giftastic/">'GIF'TASTIC</a>
+                                        <a className="caption" href="https://ancient-sands-68942.herokuapp.com/">Odds Shark</a>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="icon4">
-                                        <a className="caption" href="https://jtrimble6.github.io/trainFirebase/">Train Firebase</a>
+                                        <a className="caption" href="https://secretsupperclub.herokuapp.com/">Secret Supper Club</a>
                                     </div>
                                 </div>
                             </div>
