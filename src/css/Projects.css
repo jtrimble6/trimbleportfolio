@@ -36,7 +36,7 @@
         margin-bottom: 20px;
         height: 300px;
         width: 500px;
-        background-image: url(./images/img1.jpg);
+        background-image: url(./images/burger.jpeg);
         background-position: center;
         background-size: 100%;
         font-family: 'Press Start 2P', cursive;
@@ -52,7 +52,7 @@
         margin-bottom: 20px;
         height: 300px;
         width: 500px;
-        background-image: url(./images/img2.jpg);
+        background-image: url(./images/altitude.jpg);
         background-position: center;
         background-size: 100%;
         font-family: 'Lobster', cursive;
@@ -69,7 +69,8 @@
         margin-bottom: 20px;
         height: 300px;
         width: 500px;
-        background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/source.gif);
+        background-image: url(./images/sharkLogo.png);
+        /* https://media.giphy.com/media/BHNfhgU63qrks/source.gif) */
         /* background-image: url(../images/img3.jpg); */
         background-position: center;
         background-size: 100%;
@@ -85,10 +86,10 @@
         margin-bottom: 20px;
         height: 300px;
         width: 500px;
-        background-image: url(./images/img10.jpg);
+        background-image: url(./images/supperclub.jpg);
         background-position: center;
         background-size: 100%;
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Acme', sans-serif;
     }
 
@@ -147,7 +148,7 @@
         margin-bottom: 20px;
         height: 250px;
         width: 400px;
-        background-image: url(./images/img1.jpg);
+        background-image: url(./images/burger.jpeg);
         background-position: center;
         background-size: 100%;
         font-family: 'Press Start 2P', cursive;
@@ -163,7 +164,7 @@
         margin-bottom: 20px;
         height: 250px;
         width: 400px;
-        background-image: url(./images/img2.jpg);
+        background-image: url(./images/altitude.jpg);
         background-position: center;
         background-size: 100%;
         font-family: 'Lobster', cursive;
@@ -180,7 +181,7 @@
         margin-bottom: 20px;
         height: 250px;
         width: 400px;
-        background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/source.gif);
+        background-image: url(./images/sharkLogo.png);
         /* background-image: url(../images/img3.jpg); */
         background-position: center;
         background-size: 100%;
@@ -196,10 +197,10 @@
         margin-bottom: 20px;
         height: 250px;
         width: 400px;
-        background-image: url(./images/img10.jpg);
+        background-image: url(./images/supperclub.jpg);
         background-position: center;
         background-size: 100%;
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Acme', sans-serif;
     }
 
@@ -257,7 +258,7 @@
         margin-bottom: 20px;
         height: 200px;
         width: 300px;
-        background-image: url(./images/img1.jpg);
+        background-image: url(./images/burger.jpeg);
         background-position: center;
         background-size: 100%;
         font-family: 'Press Start 2P', cursive;
@@ -273,7 +274,7 @@
         margin-bottom: 20px;
         height: 200px;
         width: 300px;
-        background-image: url(./images/img2.jpg);
+        background-image: url(./images/altitude.jpg);
         background-position: center;
         background-size: 100%;
         font-family: 'Lobster', cursive;
@@ -290,7 +291,7 @@
         margin-bottom: 20px;
         height: 200px;
         width: 300px;
-        background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/source.gif);
+        background-image: url(./images/sharkLogo.png);
         /* background-image: url(../images/img3.jpg); */
         background-position: center;
         background-size: 100%;
@@ -306,10 +307,10 @@
         margin-bottom: 20px;
         height: 200px;
         width: 300px;
-        background-image: url(./images/img10.jpg);
+        background-image: url(./images/supperclub.jpg);
         background-position: center;
         background-size: 100%;
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Acme', sans-serif;
     }
 
@@ -367,7 +368,7 @@
         margin-bottom: 20px;
         height: 150px;
         width: 250px;
-        background-image: url(./images/img1.jpg);
+        background-image: url(./images/burger.jpeg);
         background-position: center;
         background-size: 100%;
         font-family: 'Press Start 2P', cursive;
@@ -383,7 +384,7 @@
         margin-bottom: 20px;
         height: 150px;
         width: 250px;
-        background-image: url(./images/img2.jpg);
+        background-image: url(./images/altitude.jpg);
         background-position: center;
         background-size: 100%;
         font-family: 'Lobster', cursive;
@@ -400,7 +401,7 @@
         margin-bottom: 20px;
         height: 150px;
         width: 250px;
-        background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/source.gif);
+        background-image: url(./images/sharkLogo.png);
         /* background-image: url(../images/img3.jpg); */
         background-position: center;
         background-size: 100%;
@@ -416,10 +417,10 @@
         margin-bottom: 20px;
         height: 150px;
         width: 250px;
-        background-image: url(./images/img10.jpg);
+        background-image: url(./images/supperclub.jpg);
         background-position: center;
         background-size: 100%;
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Acme', sans-serif;
     }
 
@@ -484,7 +485,7 @@
         margin-bottom: 20px;
         height: 200px;
         width: 100%;
-        background-image: url(./images/img1.jpg);
+        background-image: url(./images/burger.jpeg);
         background-position: center;
         background-size: 100%;
         font-family: 'Press Start 2P', cursive;
@@ -500,7 +501,7 @@
         margin-bottom: 20px;
         height: 200px;
         width: 100%;
-        background-image: url(./images/img2.jpg);
+        background-image: url(./images/altitude.jpg);
         background-position: center;
         background-size: 100%;
         font-family: 'Lobster', cursive;
@@ -517,10 +518,11 @@
         margin-bottom: 20px;
         height: 200px;
         width: 100%;
-        background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/source.gif);
+        background-image: url(./images/sharkLogo.png);
         /* background-image: url(../images/img3.jpg); */
         background-position: center;
-        background-size: 100%;
+        background-size: 50%;
+        background-repeat: repeat-y;
         font-size: 25px;
         font-family: 'Baloo Chettan', cursive;
     }
@@ -533,10 +535,10 @@
         margin-bottom: 20px;
         height: 200px;
         width: 100%;
-        background-image: url(./images/img10.jpg);
+        background-image: url(./images/supperclub.jpg);
         background-position: center;
         background-size: 100%;
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Acme', sans-serif;
     }
 
@@ -594,7 +596,7 @@
         margin-bottom: 20px;
         height: 200px;
         width: 100%;
-        background-image: url(./images/img1.jpg);
+        background-image: url(./images/burger.jpeg);
         background-position: center;
         background-size: 100%;
         font-family: 'Press Start 2P', cursive;
@@ -610,7 +612,7 @@
         margin-bottom: 20px;
         height: 200px;
         width: 100%;
-        background-image: url(./images/img2.jpg);
+        background-image: url(./images/altitude.jpg);
         background-position: center;
         background-size: 100%;
         font-family: 'Lobster', cursive;
@@ -627,10 +629,11 @@
         margin-bottom: 20px;
         height: 200px;
         width: 100%;
-        background-image: url(https://media.giphy.com/media/BHNfhgU63qrks/source.gif);
+        background-image: url(./images/sharkLogo.png);
         /* background-image: url(../images/img3.jpg); */
         background-position: center;
-        background-size: 100%;
+        background-size: 50%;
+        background-repeat: repeat-y;
         font-size: 25px;
         font-family: 'Baloo Chettan', cursive;
     }
@@ -643,10 +646,10 @@
         margin-bottom: 20px;
         height: 200px;
         width: 100%;
-        background-image: url(./images/img10.jpg);
+        background-image: url(./images/supperclub.jpg);
         background-position: center;
         background-size: 100%;
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Acme', sans-serif;
     }
 

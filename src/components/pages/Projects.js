@@ -11,26 +11,27 @@ const Projects = () => (
                             {/* Row 1 */}
                             <div className="row">
                                 <div className="col-md-6">
-                                    <div className="icon1">
-                                        <a className="caption" href="https://jtrimble6.github.io/unit-4-game/">FIGHTER GAME</a>
+                                    <div className="icon4">
+                                        <a className="caption" href="https://secretsupperclub.herokuapp.com/">SECRET SUPPER CLUB</a>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="icon2">
-                                        <a className="caption" href="https://jtrimble6.github.io/TriviaGame/">TRIVIA GAME</a>
+                                    <div className="icon3">
+                                        <a className="caption" href="https://ancient-sands-68942.herokuapp.com/">ODDS SHARK</a>
                                     </div>
                                 </div>
+                                
                             </div>
                             {/* Row 2 */}
                             <div className="row">
                                 <div className="col-md-6">
-                                    <div className="icon3">
-                                        <a className="caption" href="https://ancient-sands-68942.herokuapp.com/">Odds Shark</a>
+                                    <div className="icon2">
+                                        <a className="caption" href="https://spaceyb0t.github.io/Project-1-/index.html#getstarted">ALTITUDE</a>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="icon4">
-                                        <a className="caption" href="https://secretsupperclub.herokuapp.com/">Secret Supper Club</a>
+                                    <div className="icon1">
+                                        <a className="caption" href="https://frozen-hollows-87443.herokuapp.com/">EAT DA BURGER</a>
                                     </div>
                                 </div>
                             </div>
@@ -39,11 +40,11 @@ const Projects = () => (
                                 <div className="col-md-3">
                                     {/* Empty on purpose */}
                                 </div>
-                                <div className="col-md-6">
-                                    <div className="icon5">
-                                        <a className="caption" href="https://jtrimble6.github.io/Word-Guess-Game/">Word Guess Game</a>
+                                {/* <div className="col-md-6">
+                                    <div className="icon1">
+                                        <a className="caption" href="https://frozen-hollows-87443.herokuapp.com/">EAT DA BURGER</a>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-md-3">
                                     {/* Empty on purpose */}
                                 </div>
