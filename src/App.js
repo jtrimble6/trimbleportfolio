@@ -11,7 +11,7 @@ class App extends Component {
       return(
         <Router>
           <div>
-            <Route path="*" render={() => <PortfolioContainer />}  />
+            <Route path={process.env.PUBLIC_URL + '/'} render={() => <PortfolioContainer />}  />
           </div>
         </Router>
       )
