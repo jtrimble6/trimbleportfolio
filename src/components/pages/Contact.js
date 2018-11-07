@@ -1,58 +1,36 @@
-import React from "react"
-import "../../css/Contact.css"
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
 
-const Contact = () => (
-  
-    <div className="row contactContainer" id="bio">
-        <div className="col-md-2"></div>
-          <div className="col-md-8" id="contact">
-            <form action="action_page.php">
-                <div className="row">
-                    <div className="col-md-12 nameText">
-                        <label for="fname">First Name</label>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <input type="text" id="fname" name="firstname" 
-                        placeholder="Your name.." 
-                        />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-12 emailText">
-                        <label for="email">Email</label>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <input type="text" id="email" name="email" 
-                          placeholder="example@gmail.com"
-                        />
-                    </div>
-                </div>
-            </form>
-                <div className="row">
-                    <div className="col-md-12 messageText">
-                        Message:
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-12 textAreaDiv">
-                        <textarea className ="textArea" id="msg" name="message" rows="8" cols="20">
-        
-                        </textarea>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <input type="submit" value="Submit" />
-                    </div>
-                </div>
-            </div>
-        <div className="col-md-2"></div>
-        </div>
-  
-)
+import * as contactActions from '../actions/contactActions';
+import SendContactInfo from './Contact/ContactForm';
 
-export default Contact
+class ContactContainer extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return(
+      <SendContactInfo contact={this.props.contact} action={this.props.actions}/>
+    )
+  }
+}
+
+ContactContainer.propTypes = {
+  contact: PropTypes.object,
+  actions: PropTypes.object
+};
+
+const mapStateToProps = state => {
+  return {
+    contact: state.contact
+  }
+};
+
+const mapDispatchToProps = dispatch => {
+  return {actions: bindActionCreators(Object.assign(contactActions), dispatch)}
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(ContactContainer); 

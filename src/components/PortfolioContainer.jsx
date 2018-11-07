@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import ContactMe from "./ContactMe";
 import "../css/Page.css"
 import "../css/Background.css"
 import "../css/NavBar.css"

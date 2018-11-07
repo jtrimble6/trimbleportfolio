@@ -3,7 +3,7 @@ import { getApiUrl, getEnvironment } from './environment-util';
 
 const API_URL = getApiUrl();
 const POST = 'post';
-const httpRequest = async (dispatch, requestType = GET, actionType = '', opts = {}) => {
+const httpRequest = async (dispatch, requestType = "GET", actionType = '', opts = {}) => {
   try {
     dispatch({
       type: actionType+`_REQUEST`,
@@ -11,7 +11,7 @@ const httpRequest = async (dispatch, requestType = GET, actionType = '', opts = 
 
     const reqArgs = [`${API_URL}/${opts.endpoint || ''}`];
 
-    if (requestType === POST || requestType === PUT) {
+    if (requestType === POST || requestType === "PUT") {
       reqArgs.push(opts.data || {});
     }
 
