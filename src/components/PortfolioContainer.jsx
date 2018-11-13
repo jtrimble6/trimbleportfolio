@@ -47,47 +47,10 @@ class Portfolio extends Component {
       this.renderPage()
     }
 
-    connectClick = () => {
-      console.log("CONNECTING WITH ME")
-      // const buttonWrapper = document.querySelectorAll('.connectButton'),
-      //   button = document.querySelectorAll('.connectButton > a'),
-      //   icons = document.querySelectorAll('.connectButton > .iconWrapper'),
-      //   close = document.querySelectorAll('closeIcons')
-
-      // const init = () => {
-      //   button.on('click', toggle)
-      //   close.on('click', closeIcons)
-      // }
-
-      // const toggle = (e) => {
-      //   if (buttonWrapper.hasClass("active")){
-      //     closeIcons();
-      // } else{
-      //     openIcons();
-      // }
-      // e.preventDefault();
-      // }
-
-      // const openIcons = () => {
-      //   buttonWrapper.addClass("active");
-      //   button.addClass("hidden");
-      //   buttonWrapper.animate({width: "286"}, 500);
-      //   icons.animate({left: "0"}, 500);
-      // }
-
-      // const closeIcons = () => {
-      //   buttonWrapper.removeClass("active");
-      //   button.removeClass("hidden");
-      //   icons.animate({left: "-286"}, 0);
-      //   buttonWrapper.animate({width: "178"}, 0);
-      // }
-
-      // init()
-    }
-    
     render() {
         return (
           <div className="page-container">
+            {/* NAVBAR */}
             <div className="tabs-container">
               <NavTabs
                 currentPage={this.state.currentPage}
@@ -96,11 +59,9 @@ class Portfolio extends Component {
                 handleConnectClick={this.connectClick}
                 handleEnterClick={this.enterClick}
               />
-            
+              {/* MAIN DISPLAY */}
+              {this.renderPage()}
             </div>
-
-            {this.renderPage()}
-
           </div>
         );
       }

@@ -1,8 +1,3 @@
-// import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-// import App from './App';
-
 import React from 'react';
 import { render } from 'react-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -14,6 +9,7 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import App from './App';
 import rootReducer from './components/reducers';
+import './index.css';
 const history = createHistory();
 // injectTapEventPlugin();
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

@@ -47,7 +47,7 @@ class SendContactInfo extends Component {
 
   handleOnSubmit = event => {
     event.preventDefault();
-    this.props.submitContactReqToServer("*", this.state)
+    this.props.submitContactReqToServer("contacts", this.state)
     this.setState({name: "", email: "", message: ""})
   }
 
@@ -76,7 +76,7 @@ class SendContactInfo extends Component {
              </Row>
              <Row>
                <Col xs={12} sm={12} md={12} lg={12} style={styles.rowStyle}>
-                 <Field name="subject" component={renderField} label="Subject"/>
+                 <Field name="subject" onChange={this.handleOnChange} value={this.state.message} component={renderField} label="Subject"/>
                </Col>
              </Row>
              <Row>

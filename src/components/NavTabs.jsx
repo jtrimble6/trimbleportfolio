@@ -18,9 +18,9 @@ const NavTabs = props => (
           <i className="fas fa-dice-d20 fa-spin"></i> 
       <a className="Navbar_Title">
         Web Developer <br />
-        {/* <ConnectTabs 
-          onClick={props.handleConnectClick}
-        /> */}
+        <ConnectTabs 
+          // onClick={props.handleConnectClick}
+        />
       </a>
       
     </div>

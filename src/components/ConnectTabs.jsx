@@ -1,8 +1,8 @@
 import React from "react"
-import "../css/ConnectTabs.css"
 import { SocialIcon } from 'react-social-icons';
-import { scaleRotate as Menu } from 'react-burger-menu'
-
+// import { scaleRotate as Menu } from 'react-burger-menu'
+import { slide as Menu } from 'react-burger-menu'
+import "../css/ConnectTabs.css"
 
 class ConnectTabs extends React.Component {
 
@@ -14,23 +14,43 @@ class ConnectTabs extends React.Component {
     event.preventDefault();
   }
 
-  isMenuOpen = (state) => {
-    return state.isOpen;
+  isMenuOpen = (e) => {
+    e.preventDefault()
+    console.log("open menu")
+    if (this.state.isOpen) {
+      this.setState ({
+        isOpen: false
+      })
+    } else {
+      this.setState ({
+        isOpen: true
+      })
+    }
+    // return state.isOpen;
   };
 
   render() {
     return (
-      <div id="outer-container">
-        <Menu isOpen={ false } pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } width={ '20%' } onClick={this.isMenuOpen}>
-          <main id="page-wrap">
-            <a id="linkedin" className="menu-item" href="/">Linked In</a>
-            <a id="github" className="menu-item" href="/about">Github</a>
-            <a id="blog" className="menu-item" href="/contact">Blog</a>
-            {/* <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
+      <div className="connectButton">
+        <div className="iconWrapper">
+          <a href="#" className="connectText" onClick={ this.isMenuOpen }>Connect With Me</a>
+            <main id="page-wrap">
+            <Menu 
+              right
+              isOpen={ this.state.isOpen }
+              width={ "75%" }
+              // zIndex={ "0" }
+              // onStateChange={(state) => this.handleStateChange(state)}
+            >
+              <a id="linkedin" className="menu-item" href="https://linkedin.com/in/joshuataylortrimble">Linked In</a><br />
+              <a id="github" className="menu-item" href="https://github.com/jtrimble6">Github</a><br />
+              <a id="blog" className="menu-item" href="#">Blog</a>
+              {/* <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
+            
+          </Menu>
           </main>
-        </Menu>
+        </div>
       </div>
-      
     )
   }
     // <div className="connectButton" onClick={props.onClick}>
