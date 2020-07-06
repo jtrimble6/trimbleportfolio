@@ -42,8 +42,8 @@ class ConnectTabs extends React.Component {
               // zIndex={ "0" }
               // onStateChange={(state) => this.handleStateChange(state)}
             >
-              <a id="linkedin" className="menu-item" href="https://linkedin.com/in/joshuataylortrimble">Linked In</a><br />
-              <a id="github" className="menu-item" href="https://github.com/jtrimble6">Github</a><br />
+              <a id="linkedin" className="menu-item" href="https://linkedin.com/in/joshuataylortrimble" target="_blank">Linked In</a><br />
+              <a id="github" className="menu-item" href="https://github.com/jtrimble6" target="_blank">Github</a><br />
               <a id="blog" className="menu-item" href="#">Blog</a>
               {/* <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
             

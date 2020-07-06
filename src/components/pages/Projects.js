@@ -12,12 +12,12 @@ const Projects = () => (
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="icon4">
-                                        <a className="caption" href="https://secretsupperclub.herokuapp.com/">SECRET SUPPER CLUB</a>
+                                        <a className="caption" href="https://secretsupperclub.herokuapp.com/" target="_blank">SECRET SUPPER CLUB</a>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="icon3">
-                                        <a className="caption" href="https://ancient-sands-68942.herokuapp.com/">ODDS SHARK</a>
+                                        <a className="caption" href="https://ancient-sands-68942.herokuapp.com/" target="_blank">ODDS SHARK</a>
                                     </div>
                                 </div>
                                 
@@ -26,12 +26,12 @@ const Projects = () => (
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="icon2">
-                                        <a className="caption" href="https://spaceyb0t.github.io/Project-1-/index.html#getstarted">ALTITUDE</a>
+                                        <a className="caption" href="https://spaceyb0t.github.io/Project-1-/index.html#getstarted" target="_blank">ALTITUDE</a>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="icon1">
-                                        <a className="caption" href="https://frozen-hollows-87443.herokuapp.com/">EAT DA BURGER</a>
+                                        <a className="caption" href="https://frozen-hollows-87443.herokuapp.com/" target="_blank">EAT DA BURGER</a>
                                     </div>
                                 </div>
                             </div>

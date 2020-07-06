@@ -20,8 +20,8 @@
         margin-top: 25px;
         margin-left: 20px;
         margin-right: 20px;
-        height: 40%;
-        width: 25%;
+        width: 40%;
+        height: auto;
     }
 
     h2 {
@@ -59,8 +59,8 @@
         margin-top: 10px;
         margin-left: 30%;
         margin-right: 20px;
-        height: 40%;
         width: 40%;
+        height: auto;
 
     }
 
@@ -99,8 +99,8 @@
         margin-left: 11%;
         margin-right: 20px;
         margin-bottom: 15px;
-        height: 40%;
         width: 40%;
+        height: auto;
     }
 
     h2 {
@@ -136,8 +136,8 @@
         margin-left: 20%;
         margin-right: 20px;
         margin-bottom: 15px;
-        height: 35%;
-        width: 60%;
+        width: 40%;
+        height: auto;
     }
 
     h2 {
