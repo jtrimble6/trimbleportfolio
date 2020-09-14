@@ -3,7 +3,7 @@
     .projectsContainer {
         background-image: url("./background.jpg");
         margin: 0;
-        overflow: scroll;
+        overflow-y: auto;
     }
 
     .caption {
@@ -115,7 +115,7 @@
     .projectsContainer {
         background-image: url("./background.jpg");
         margin: 0;
-        overflow: scroll;
+        overflow-y: auto;
     }
 
     .caption {
@@ -225,7 +225,7 @@
     .projectsContainer {
         background-image: url("./background.jpg");
         margin: 0;
-        overflow: scroll;
+        overflow-y: auto;
     }
 
     .caption {
@@ -335,7 +335,7 @@
     .projectsContainer {
         background-image: url("./background.jpg");
         margin: 0;
-        overflow: scroll;
+        overflow-y: auto;
     }
 
     .caption {
@@ -452,7 +452,7 @@
     .projectsContainer {
         background-image: url("./background.jpg");
         margin: 0;
-        overflow: scroll;
+        overflow-y: auto;
     }
 
     .caption {
@@ -563,7 +563,7 @@
     .projectsContainer {
         background-image: url("./background.jpg");
         margin: 0;
-        overflow: scroll;
+        overflow-y: auto;
     }
 
     .caption {

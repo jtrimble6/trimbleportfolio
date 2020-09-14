@@ -6,6 +6,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faDice } from '@fortawesome/free-solid-svg-icons'
+import { Divider } from "material-ui"
 
 library.add(faBars, faDice)
 
@@ -14,10 +15,13 @@ const NavTabs = props => (
   <div className="navTabs Navbar">
     <div className="Navbar__Link Navbar_Link-brand">
       <a className="Navbar_Name">Joshua Trimble</a>   
-          <FontAwesomeIcon icon="fa-dice-d20" />
-          <i className="fas fa-dice-d20 fa-spin"></i> 
+      {/* <div className='navbarSpinner'>
+        <FontAwesomeIcon icon="fa-dice-d20" />
+        <i className="fas fa-dice-d20 fa-spin"></i> 
+      </div> */}
+          
       <a className="Navbar_Title">
-        Web Developer <br />
+        {/* Web Developer <br /> */}
         <ConnectTabs 
           // onClick={props.handleConnectClick}
         />

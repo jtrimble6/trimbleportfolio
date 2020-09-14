@@ -1,166 +1,42 @@
-/* WIDE SCREENS */
-@media only screen and (min-width: 1025px) {
-    .aboutContainer {
-        min-width: 100%;
-        margin: 0 auto;
-        overflow: scroll;
-        font-size: 3vh;
-    }
-
-    .aboutField {
-        margin-top: 10%;
-        margin-bottom: 10%;
-        opacity: 1;
-        background-color:black;
-        overflow: scroll;
-        font-family: 'Rajdhani', sans-serif;
-    }
-
-    .img {
-        float: left;
-        margin-top: 25px;
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 40%;
-        height: auto;
-    }
-
-    h2 {
-        font-size: 65px;
-    }
-    .aboutField p {
-        font-size: 40px;
-        background-color:black;
-        color: #008eff;
-        font-weight: 600;
-        padding: 10px;
-        text-indent: 3%;
-        
-    }
+.img {
+    float: left;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    margin-right: 2vw;
+    margin-bottom: 1.5vw;
+    width: 15vw !important;
+    height: auto;
+    border-radius: 1rem;
 }
 
-/* MEDIUM SCREENS */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .aboutContainer {
-        min-width: 100%;
-        margin: 5%;
-        overflow: scroll;
-        font-size: 3vh;
-    }
-
-    .aboutField {
-        margin-top: 10%;
-        margin-bottom: 10%;
-        opacity: 1;
-        background-color:black;
-        overflow: scroll;
-        font-family: 'Rajdhani', sans-serif;
-    }
-
-    .img {
-        float: left;
-        margin-top: 10px;
-        margin-left: 30%;
-        margin-right: 20px;
-        width: 40%;
-        height: auto;
-
-    }
-
-    h2 {
-        font-size: 40px;
-    }
-    .aboutField p {
-        font-size: 20px;
-        background-color:black;
-        color: #008eff;
-        font-weight: 600;
-        padding: 10px;
-        text-indent: 3%;
-        width: 100%;
-        overflow: scroll;
-    }
+.aboutContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    overflow-y: auto;
+    font-size: 1rem;
 }
 
-/* SMALL SCREENS */
-@media only screen and (min-width: 481px) and (max-width: 765px) {
-    .aboutContainer {
-        min-width: 100%;
-        margin: 5%;
-        overflow: scroll;
-        font-size: 3vh;
-    }
-
-    .aboutField {
-        margin-top: 10%;
-        margin-bottom: 10%;
-        opacity: 1;
-        background-color:black;
-        overflow: scroll;
-        font-family: 'Rajdhani', sans-serif;
-    }
-
-    .img {
-        float: left;
-        margin-top: 25px;
-        margin-left: 11%;
-        margin-right: 20px;
-        margin-bottom: 15px;
-        width: 40%;
-        height: auto;
-    }
-
-    h2 {
-        font-size: 50px;
-    }
-    .aboutField p {
-        font-size: 22px;
-        background-color:black;
-        color: #008eff;
-        font-weight: 600;
-        padding: 20px;
-        text-align: center;
-    }
+.aboutField {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    opacity: 1;
+    background-color:black;
+    border-radius: 1rem;
+    font-family: 'Rajdhani', sans-serif;
 }
 
-/* SMALLER SCREENS */
-@media only screen and (max-width: 480px) {
-    .aboutContainer {
-        min-width: 100%;
-        margin: 5%;
-        overflow: scroll;
-        font-size: 3vh;
-    }
-
-    .aboutField {
-        margin-top: 10%;
-        margin-bottom: 10%;
-        opacity: 1;
-        background-color:black;
-        overflow: scroll;
-        font-family: 'Rajdhani', sans-serif;
-    }
-
-    .img {
-        float: left;
-        margin-top: 25px;
-        margin-left: 20%;
-        margin-right: 20px;
-        margin-bottom: 15px;
-        width: 40%;
-        height: auto;
-    }
-
-    h2 {
-        font-size: 50px;
-    }
-
-    .aboutField p {
-        font-size: 20px;
-        background-color:black;
-        color: #008eff;
-        font-weight: 600;
-        padding: 20px;
-        text-align: center;
-    }
+h2 {
+    font-size: 65px;
+}
+.aboutField p {
+    font-size: 2rem;
+    background-color:black;
+    color: #008eff;
+    font-weight: 600;
+    padding: 10px;
+    text-indent: 3%;
+    
 }

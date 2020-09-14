@@ -13,6 +13,9 @@ import EmailMsg from "./EmailMessage";
 import renderField from './renderField';
 import { validate } from './validate';
 
+//css
+import '../../../css/Contact.css'
+
 const styles = {
   formStyle: {
     padding: 10
