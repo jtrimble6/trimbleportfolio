@@ -54,7 +54,7 @@ input[type=submit]:hover {
 
 .nameText, .emailText, .messageText {
     margin: 0;
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 
